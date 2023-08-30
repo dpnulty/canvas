@@ -18,15 +18,13 @@
 /* Logo Styles */
 .logo {
     position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
+    top: 20px; /* Adjust the top distance as needed */
+    right: 20px; /* Adjust the right distance as needed */
 }
 
 .logo img {
     max-width: 100px; /* Adjust the width as needed */
     vertical-align: middle;
-    margin-bottom: 10px; /* Add margin below the logo */
 }
 
 /* Mobile Menu */
