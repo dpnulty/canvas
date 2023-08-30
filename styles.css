@@ -58,7 +58,7 @@ body {
 }
 
 /* Header Styles */
-body {
+html {
     background-image: url('background.jpg'); /* Replace with your image file name */
     background-size: cover;
     background-position: center;
