@@ -26,6 +26,7 @@
 .logo img {
     max-width: 100px; /* Adjust the width as needed */
     vertical-align: middle;
+    margin-bottom: 10px; /* Add margin below the logo */
 }
 
 /* Mobile Menu */
@@ -62,8 +63,9 @@ body {
     font-family: "Helvetica Neue", sans-serif;
     font-size: 18px;
     line-height: 1.6;
-    color: #ffffffed; /* White color */
+    color: #fff; /* White color */
     font-weight: bold; /* Bold font weight */
+    margin-top: 130px; /* Adjust the top margin as needed */
 }
 
 /* Header Styles */
