@@ -1,96 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="stylesheet" href="styles.css">
+<<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            font-family: 'Open Sans', Arial, sans-serif;
-            background-color: black;
-            color: white;
-            background-image: url('background.jpg');
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-        }
-
-        a:link,
-        a:visited {
-            color: white;
-            text-decoration: none;
-        }
-
-        a:hover,
-        a:active {
-            color: lightblue;
-            text-decoration: underline;
-        }
-
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-
-        h1 {
-            font-size: 36px;
-        }
-
-        h2 {
-            font-size: 24px;
-        }
-
-        p {
-            font-size: 18px;
-            line-height: 1.6;
-        }
-
-        ul {
-            list-style-type: disc;
-            padding-left: 20px;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
     <title>Debut Web Odyssey</title>
 </head>
 <body>
-    <div class="container">
-        <h1>Debut Web Odyssey</h1>
-        
-        <p>About Me:</p>
-        <p>Hello, I'm Daniel Nulty, a child psychiatrist with a passion for exploring various interests. Welcome to my digital journey!</p>
+    <header>
+        <nav>
+            <ul class="nav-list">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Me</a></li>
+                <li><a href="#">Interests</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-        <h2>All My Interests</h2>
-     <ul>
-        <li><a href="https://www.crossway.org/articles/10-things-you-should-know-about-reformed-theology-2/#:~:text=Reformed%20theology%20breathes%20a%20spirit,fear%20of%20the%20Lord%20(Prov." target="_blank">Theology</a></li>
-        <li><a href="https://plato.stanford.edu/" target="_blank">Philosophy</a></li>
-        <li><a href="https://www.wordproject.org/bibles/sw/index.htm" target="_blank">Swahili</a></li>
-        <li><a href="https://www.staff.ncl.ac.uk/i.e.mackenzie/" target="_blank">Spanish</a></li>
-        <li><a href="https://www.sololearn.com/profile/26709202" target="_blank">Coding</a></li>
-        <li><a href="https://www.cdschools.org/cms/lib04/pa09000075/centricity/domain/81/blenderbasics_4thedition2011.pdf" target="_blank">Digital Sculpture</a></li>
-        <li><a href="https://www.youtube.com/c/GinoMachino" target="_blank">Video Games</a></li>
-        <li><a href="https://www.poetryfoundation.org/poetrymagazine/poems/56767/from-the-sonnagrams" target="_blank">Poetry</a></li>
-        <li><a href="https://www.youtube.com/watch?v=fxBvlMzRRXs" target="_blank">Drawing</a></li>
-        <li>Composition</li>
-        <li>Chess</li>
-        <li>Meditation</li>
-        <li>Journaling</li>
-        <li>Coffee</li>
-        <li>Beer</li>
-        <li>Cocktails</li>
-        <li>Wine</li>
-        <li>Family</li>
-        <li>Etymology</li>
-        <li>Linguistics</li>
-    </ul>
-    </div>
+    <main>
+        <section class="content">
+            <h1 class="heading">Debut Web Odyssey</h1>
+            <p class="subtitle">Exploring Life's Fascinating Dimensions</p>
+            <p class="description">Welcome to my digital exploration of theology, philosophy, languages, coding, and more.</p>
+            <a href="#" class="button">Explore</a>
+        </section>
+
+        <section class="interests">
+            <h2 class="section-heading">All My Interests</h2>
+            <ul class="interests-list">
+                <li><a href="https://www.crossway.org/articles/10-things-you-should-know-about-reformed-theology-2/#:~:text=Reformed%20theology%20breathes%20a%20spirit,fear%20of%20the%20Lord%20(Prov." target="_blank">Theology</a></li>
+                <li><a href="https://plato.stanford.edu/" target="_blank">Philosophy</a></li>
+                <li><a href="https://www.wordproject.org/bibles/sw/index.htm" target="_blank">Swahili</a></li>
+                <li><a href="https://www.staff.ncl.ac.uk/i.e.mackenzie/" target="_blank">Spanish</a></li>
+                <li><a href="https://www.sololearn.com/profile/26709202" target="_blank">Coding</a></li>
+                <li><a href="https://www.cdschools.org/cms/lib04/pa09000075/centricity/domain/81/blenderbasics_4thedition2011.pdf" target="_blank">Digital Sculpture</a></li>
+                <li><a href="https://www.youtube.com/c/GinoMachino" target="_blank">Video Games</a></li>
+                <li><a href="https://www.poetryfoundation.org/poetrymagazine/poems/56767/from-the-sonnagrams" target="_blank">Poetry</a></li>
+                <li><a href="https://www.youtube.com/watch?v=fxBvlMzRRXs" target="_blank">Drawing</a></li>
+                <li>Composition</li>
+                <li>Chess</li>
+                <li>Meditation</li>
+                <li>Journaling</li>
+                <li>Coffee</li>
+                <li>Beer</li>
+                <li>Cocktails</li>
+                <li>Wine</li>
+                <li>Family</li>
+                <li>Etymology</li>
+                <li>Linguistics</li> 
+            </ul>
+        </section>
+    </main>
+
     <footer>
-        <p>&copy; 2023 Daniel Nulty. All rights reserved.</p>
-        <p>Contact: <a href="mailto:dpnulty94@gmail.com">dpnulty94@gmail.com</a></p>
+        <p class="footer-text">&copy; 2023 Daniel Nulty. All rights reserved. Contact: <a href="mailto:dpnulty94@gmail.com">dpnulty94@gmail.com</a></p>
     </footer>
 </body>
 </html>
-
