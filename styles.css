@@ -54,7 +54,9 @@ body {
 
 /* Header Styles */
 header {
-    background-color: #f8f8f8;
+    background-image: url('background.jpg'); /* Replace with your image file name */
+    background-size: cover;
+    background-position: center;
     padding: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
