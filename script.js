@@ -6,8 +6,3 @@ document.addEventListener('DOMContentLoaded', function() {
         navList.classList.toggle('active');
     });
 });
-
-function changeHeaderColor() {
-    var header = document.querySelector('header');
-    header.style.backgroundColor = '#f4f4f4'; // Change to your desired color
-}
