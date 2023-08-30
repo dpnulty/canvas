@@ -1,4 +1,43 @@
 /* styles.css */
+/* styles.css */
+
+/* Hamburger Icon */
+.menu-toggle {
+    display: none;
+    cursor: pointer;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    background-color: #333;
+    transition: background-color 0.3s ease;
+}
+
+/* Mobile Menu */
+@media screen and (max-width: 768px) {
+    .menu-toggle {
+        display: block;
+    }
+
+    #nav-list {
+        display: none;
+        list-style: none;
+        background-color: #f8f8f8;
+        padding: 20px;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 100%;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    #nav-list.active {
+        display: block;
+    }
+}
 
 /* Reset default margin and padding */
 body, h1, h2, h3, p, ul, li {
