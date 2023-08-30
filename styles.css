@@ -55,7 +55,7 @@ body {
     font-family: "Helvetica Neue", sans-serif;
     font-size: 18px;
     line-height: 1.6;
-    color: #fff; /* White color */
+    color: #ffffffed; /* White color */
     font-weight: bold; /* Bold font weight */
 }
 
@@ -68,7 +68,7 @@ html {
 
 /* Link Styles */
 a {
-    color: #0077cc; /* Slightly more blue color for links */
+    color: #e9bffc; /* Slightly more blue color for links */
     text-decoration: none;
 }
 
@@ -83,5 +83,5 @@ a {
 
 /* Improved Readability */
 body {
-    background-color: rgba(0, 0, 0, 0.5); /* Muted background for better readability */
+    background-color: rgba(0, 0, 0, 0.493); /* Muted background for better readability */
 }
