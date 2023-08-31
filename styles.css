@@ -15,18 +15,6 @@
     transition: background-color 0.3s ease;
 }
 
-/* Logo Styles */
-.logo {
-    position: absolute;
-    top: 20px; /* Adjust the top distance as needed */
-    right: 20px; /* Adjust the right distance as needed */
-}
-
-.logo img {
-    max-width: 100px; /* Adjust the width as needed */
-    vertical-align: middle;
-}
-
 /* Mobile Menu */
 @media screen and (max-width: 768px) {
     .menu-toggle {
